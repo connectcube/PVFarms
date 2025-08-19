@@ -44,8 +44,10 @@ export default function Home() {
                 Contact
               </a>
             </div>
-            <Button className="bg-pvpink-500 hover:bg-pvpink-600">
-              <a href="/outgrower-program">Join Our Program</a>
+            <Button className="bg-pvpink-500 hover:bg-pvpink-600 text-white font-semibold">
+              <a href="/outgrower-program" className="text-white">
+                Join Our Program
+              </a>
             </Button>
           </div>
         </div>
@@ -55,10 +57,10 @@ export default function Home() {
       <section className="relative h-[600px] bg-gradient-to-r from-pvpink-500 to-pvpink-700">
         <div className="absolute inset-0 bg-black/20"></div>
         <div
-          className="absolute inset-0 bg-cover bg-center opacity-30"
+          className="absolute inset-0 bg-cover bg-center opacity-40"
           style={{
             backgroundImage:
-              "url(https://images.unsplash.com/photo-1590736969955-71cc94901144?w=1200&q=80)",
+              "url(https://images.unsplash.com/photo-1518843875459-f738682238a6?w=1200&q=80)",
           }}
         ></div>
         <div className="relative z-10 container mx-auto px-4 h-full flex items-center">
@@ -74,16 +76,23 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
                 size="lg"
-                className="bg-white text-pvpink-500 hover:bg-gray-100"
+                className="bg-white text-pvpink-500 hover:bg-gray-100 font-semibold"
               >
-                <a href="#products">Explore Products</a>
+                <a href="#products" className="text-pvpink-500">
+                  Explore Products
+                </a>
               </Button>
               <Button
                 size="lg"
                 variant="outline"
-                className="border-white text-white hover:bg-white hover:text-pvpink-500"
+                className="border-white text-white hover:bg-white hover:text-pvpink-500 font-semibold"
               >
-                <a href="/about-us">Learn More</a>
+                <a
+                  href="/about-us"
+                  className="text-white hover:text-pvpink-500"
+                >
+                  Learn More
+                </a>
               </Button>
             </div>
           </div>
@@ -334,16 +343,21 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
               size="lg"
-              className="bg-white text-pvpink-500 hover:bg-gray-100"
+              className="bg-white text-pvpink-500 hover:bg-gray-100 font-semibold"
             >
-              Order Now
+              <span className="text-pvpink-500">Order Now</span>
             </Button>
             <Button
               size="lg"
               variant="outline"
-              className="border-white text-white hover:bg-white hover:text-pvpink-500"
+              className="border-white text-white hover:bg-white hover:text-pvpink-500 font-semibold"
             >
-              <a href="/outgrower-program">Partner With Us</a>
+              <a
+                href="/outgrower-program"
+                className="text-white hover:text-pvpink-500"
+              >
+                Partner With Us
+              </a>
             </Button>
           </div>
         </div>
