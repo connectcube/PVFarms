@@ -12,7 +12,7 @@ export default function Home() {
           <div className="flex justify-between items-center">
             <div className="flex items-center space-x-2">
               <img
-                src="/images/1.png"
+                src="https://6e7e06b4-e35a-4317-8aad-a3bbdeba05d7.tempo.build/images/1.png"
                 alt="PV Farms Logo"
                 className="h-10 w-10 object-contain"
               />
@@ -21,7 +21,7 @@ export default function Home() {
             <div className="hidden md:flex space-x-8">
               <a
                 href="#products"
-                className="text-gray-600 hover:text-green-600"
+                className="text-gray-600 hover:text-pvpink-500"
               >
                 Products
               </a>
@@ -31,11 +31,14 @@ export default function Home() {
               >
                 Benefits
               </a>
-              <a href="#about" className="text-gray-600 hover:text-pvpink-500">
+              <a
+                href="/about-us"
+                className="text-gray-600 hover:text-pvpink-500"
+              >
                 About
               </a>
               <a
-                href="#contact"
+                href="/contact-us"
                 className="text-gray-600 hover:text-pvpink-500"
               >
                 Contact
@@ -51,6 +54,13 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-[600px] bg-gradient-to-r from-pvpink-500 to-pvpink-700">
         <div className="absolute inset-0 bg-black/20"></div>
+        <div
+          className="absolute inset-0 bg-cover bg-center opacity-30"
+          style={{
+            backgroundImage:
+              "url(https://images.unsplash.com/photo-1590736969955-71cc94901144?w=1200&q=80)",
+          }}
+        ></div>
         <div className="relative z-10 container mx-auto px-4 h-full flex items-center">
           <div className="max-w-3xl text-white">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
@@ -66,14 +76,14 @@ export default function Home() {
                 size="lg"
                 className="bg-white text-pvpink-500 hover:bg-gray-100"
               >
-                Explore Products
+                <a href="#products">Explore Products</a>
               </Button>
               <Button
                 size="lg"
                 variant="outline"
                 className="border-white text-white hover:bg-white hover:text-pvpink-500"
               >
-                Learn More
+                <a href="/about-us">Learn More</a>
               </Button>
             </div>
           </div>
@@ -99,7 +109,8 @@ export default function Home() {
               <div
                 className="h-48 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url(/images/beet powder pv farms.jpg)",
+                  backgroundImage:
+                    "url(https://6e7e06b4-e35a-4317-8aad-a3bbdeba05d7.tempo.build/images/beet powder pv farms.jpg)",
                 }}
               ></div>
               <CardContent className="p-6">
@@ -120,7 +131,10 @@ export default function Home() {
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div
                 className="h-48 bg-cover bg-center"
-                style={{ backgroundImage: "url(/images/beet tea.jpg)" }}
+                style={{
+                  backgroundImage:
+                    "url(https://6e7e06b4-e35a-4317-8aad-a3bbdeba05d7.tempo.build/images/beet tea.jpg)",
+                }}
               ></div>
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold mb-2">Beetroot Tea</h3>
@@ -140,7 +154,10 @@ export default function Home() {
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div
                 className="h-48 bg-cover bg-center"
-                style={{ backgroundImage: "url(/images/PV pickles.jpg)" }}
+                style={{
+                  backgroundImage:
+                    "url(https://6e7e06b4-e35a-4317-8aad-a3bbdeba05d7.tempo.build/images/PV pickles.jpg)",
+                }}
               ></div>
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold mb-2">Beetroot Pickles</h3>
@@ -160,7 +177,10 @@ export default function Home() {
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div
                 className="h-48 bg-cover bg-center"
-                style={{ backgroundImage: "url(/images/PV products.jpg)" }}
+                style={{
+                  backgroundImage:
+                    "url(https://6e7e06b4-e35a-4317-8aad-a3bbdeba05d7.tempo.build/images/PV products.jpg)",
+                }}
               ></div>
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold mb-2">Beetroot Bites</h3>
@@ -292,7 +312,10 @@ export default function Home() {
             </div>
             <div
               className="h-96 bg-cover bg-center rounded-lg"
-              style={{ backgroundImage: "url(/images/PV produce.jpg)" }}
+              style={{
+                backgroundImage:
+                  "url(https://6e7e06b4-e35a-4317-8aad-a3bbdeba05d7.tempo.build/images/PV produce.jpg)",
+              }}
             ></div>
           </div>
         </div>
@@ -333,7 +356,7 @@ export default function Home() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <img
-                  src="/images/2.png"
+                  src="https://6e7e06b4-e35a-4317-8aad-a3bbdeba05d7.tempo.build/images/2.png"
                   alt="PV Farms Logo"
                   className="h-8 w-8 object-contain"
                 />
@@ -375,7 +398,7 @@ export default function Home() {
               <h3 className="text-lg font-semibold mb-4">Company</h3>
               <ul className="space-y-2 text-gray-400">
                 <li>
-                  <a href="#" className="hover:text-white">
+                  <a href="/about-us" className="hover:text-white">
                     About Us
                   </a>
                 </li>
@@ -385,8 +408,8 @@ export default function Home() {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white">
-                    Sustainability
+                  <a href="/contact-us" className="hover:text-white">
+                    Contact Us
                   </a>
                 </li>
                 <li>
