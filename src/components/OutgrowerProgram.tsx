@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "./ui/button";
 import HeroSection from "./HeroSection";
 import ProgramOverview from "./ProgramOverview";
 import ImpactSection from "./ImpactSection";
@@ -7,6 +8,52 @@ import ContactForm from "./ContactForm";
 export default function OutgrowerProgram() {
   return (
     <div className="min-h-screen bg-white">
+      {/* Navigation */}
+      <nav className="bg-white shadow-sm border-b">
+        <div className="container mx-auto px-4 py-4">
+          <div className="flex justify-between items-center">
+            <div className="flex items-center space-x-2">
+              <img
+                src="https://6e7e06b4-e35a-4317-8aad-a3bbdeba05d7.tempo.build/images/1.png"
+                alt="PV Farms Logo"
+                className="h-10 w-10 object-contain"
+              />
+              <span className="text-xl font-bold text-gray-800">PV Farms</span>
+            </div>
+            <div className="hidden md:flex space-x-8">
+              <a href="/" className="text-gray-600 hover:text-pvpink-500">
+                Home
+              </a>
+              <a
+                href="/#products"
+                className="text-gray-600 hover:text-pvpink-500"
+              >
+                Products
+              </a>
+              <a
+                href="/about-us"
+                className="text-gray-600 hover:text-pvpink-500"
+              >
+                About
+              </a>
+              <a
+                href="/contact-us"
+                className="text-gray-600 hover:text-pvpink-500"
+              >
+                Contact
+              </a>
+            </div>
+            <Button className="bg-pvpink-500 hover:bg-pvpink-600 text-white font-semibold border-2 border-pvpink-500">
+              <a
+                href="/outgrower-program"
+                className="text-white no-underline font-semibold"
+              >
+                Join Our Program
+              </a>
+            </Button>
+          </div>
+        </div>
+      </nav>
       {/* Hero Section */}
       <HeroSection />
 
@@ -203,40 +250,83 @@ export default function OutgrowerProgram() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-green-800 text-white py-12">
+      <footer className="bg-gray-900 text-white py-12">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">PV Farms</h3>
-              <p className="mb-4">
-                Empowering rural communities through sustainable agriculture.
-              </p>
-              <p>
-                © {new Date().getFullYear()} PV Farms. All rights reserved.
+              <div className="flex items-center space-x-2 mb-4">
+                <img
+                  src="https://6e7e06b4-e35a-4317-8aad-a3bbdeba05d7.tempo.build/images/2.png"
+                  alt="PV Farms Logo"
+                  className="h-8 w-8 object-contain"
+                />
+                <span className="text-lg font-bold">PV Farms</span>
+              </div>
+              <p className="text-gray-400 mb-4">
+                Premium organic beetroot products for health-conscious
+                consumers.
               </p>
             </div>
 
             <div>
-              <h3 className="text-xl font-bold mb-4">Contact Us</h3>
-              <p className="mb-2">Email: info@pvfarms.com</p>
-              <p className="mb-2">Phone: +260 971 235 020</p>
-              <p>Address: Chikupi, Lusaka, Zambia</p>
+              <h3 className="text-lg font-semibold mb-4">Products</h3>
+              <ul className="space-y-2 text-gray-400">
+                <li>
+                  <a href="/#products" className="hover:text-white">
+                    Beetroot Powder
+                  </a>
+                </li>
+                <li>
+                  <a href="/#products" className="hover:text-white">
+                    Beetroot Tea
+                  </a>
+                </li>
+                <li>
+                  <a href="/#products" className="hover:text-white">
+                    Beetroot Pickles
+                  </a>
+                </li>
+                <li>
+                  <a href="/#products" className="hover:text-white">
+                    Beetroot Bites
+                  </a>
+                </li>
+              </ul>
             </div>
 
             <div>
-              <h3 className="text-xl font-bold mb-4">Follow Us</h3>
-              <div className="flex space-x-4">
-                <a href="#" className="hover:text-green-300">
-                  Facebook
-                </a>
-                <a href="#" className="hover:text-green-300">
-                  Twitter
-                </a>
-                <a href="#" className="hover:text-green-300">
-                  Instagram
-                </a>
+              <h3 className="text-lg font-semibold mb-4">Company</h3>
+              <ul className="space-y-2 text-gray-400">
+                <li>
+                  <a href="/about-us" className="hover:text-white">
+                    About Us
+                  </a>
+                </li>
+                <li>
+                  <a href="/outgrower-program" className="hover:text-white">
+                    Outgrower Program
+                  </a>
+                </li>
+                <li>
+                  <a href="/contact-us" className="hover:text-white">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-semibold mb-4">Contact</h3>
+              <div className="space-y-2 text-gray-400">
+                <p>Email: sales@pvfarms.com</p>
+                <p>Phone: +260 971 235 020</p>
+                <p>Address: Chikupi, Lusaka, Zambia</p>
               </div>
             </div>
+          </div>
+
+          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+            <p>© {new Date().getFullYear()} PV Farms. All rights reserved.</p>
           </div>
         </div>
       </footer>

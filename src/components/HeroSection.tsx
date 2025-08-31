@@ -48,9 +48,9 @@ const HeroSection = ({
         <Button
           onClick={onCtaClick}
           size="lg"
-          className="bg-primary text-lg font-semibold hover:bg-primary/90"
+          className="bg-pvpink-500 hover:bg-pvpink-600 text-white text-lg font-semibold border-2 border-white"
         >
-          {ctaText}
+          <span className="text-white font-semibold">{ctaText}</span>
         </Button>
 
         {/* Scroll Indicator */}

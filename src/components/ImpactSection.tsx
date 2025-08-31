@@ -99,8 +99,10 @@ const ImpactSection = ({
           <h3 className="text-2xl font-bold text-gray-800 mt-2 mb-6">
             Together, we can create sustainable futures
           </h3>
-          <button className="px-8 py-3 bg-green-600 hover:bg-green-700 text-white rounded-md font-medium transition-colors duration-300">
-            Learn More About Our Impact
+          <button className="px-8 py-3 bg-green-600 hover:bg-green-700 text-white rounded-md font-semibold transition-colors duration-300 border-2 border-green-600">
+            <span className="text-white font-semibold">
+              Learn More About Our Impact
+            </span>
           </button>
         </motion.div>
       </div>

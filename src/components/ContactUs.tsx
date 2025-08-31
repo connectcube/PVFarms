@@ -41,8 +41,11 @@ export default function ContactUs() {
                 Contact
               </a>
             </div>
-            <Button className="bg-pvpink-500 hover:bg-pvpink-600 text-white font-semibold">
-              <a href="/outgrower-program" className="text-white">
+            <Button className="bg-pvpink-500 hover:bg-pvpink-600 text-white font-semibold border-2 border-pvpink-500">
+              <a
+                href="/outgrower-program"
+                className="text-white no-underline font-semibold"
+              >
                 Join Our Program
               </a>
             </Button>
@@ -187,9 +190,11 @@ export default function ContactUs() {
 
                   <Button
                     type="submit"
-                    className="w-full bg-pvpink-500 hover:bg-pvpink-600 text-white font-semibold"
+                    className="w-full bg-pvpink-500 hover:bg-pvpink-600 text-white font-semibold border-2 border-pvpink-500"
                   >
-                    <span className="text-white">Send Message</span>
+                    <span className="text-white font-semibold">
+                      Send Message
+                    </span>
                   </Button>
                 </form>
               </CardContent>
@@ -225,11 +230,11 @@ export default function ContactUs() {
                 </p>
                 <Button
                   variant="outline"
-                  className="border-pvpink-500 text-pvpink-500 hover:bg-pvpink-500 hover:text-white font-semibold"
+                  className="border-2 border-pvpink-500 text-pvpink-500 hover:bg-pvpink-500 hover:text-white font-semibold bg-white"
                 >
                   <a
                     href="/outgrower-program"
-                    className="text-pvpink-500 hover:text-white"
+                    className="text-pvpink-500 hover:text-white no-underline font-semibold"
                   >
                     Learn More
                   </a>
@@ -250,9 +255,14 @@ export default function ContactUs() {
                 </p>
                 <Button
                   variant="outline"
-                  className="border-pvpink-500 text-pvpink-500 hover:bg-pvpink-500 hover:text-white"
+                  className="border-2 border-pvpink-500 text-pvpink-500 hover:bg-pvpink-500 hover:text-white font-semibold bg-white"
                 >
-                  <a href="/#products">View Products</a>
+                  <a
+                    href="/#products"
+                    className="text-pvpink-500 hover:text-white no-underline font-semibold"
+                  >
+                    View Products
+                  </a>
                 </Button>
               </CardContent>
             </Card>
@@ -270,9 +280,14 @@ export default function ContactUs() {
                 </p>
                 <Button
                   variant="outline"
-                  className="border-pvpink-500 text-pvpink-500 hover:bg-pvpink-500 hover:text-white"
+                  className="border-2 border-pvpink-500 text-pvpink-500 hover:bg-pvpink-500 hover:text-white font-semibold bg-white"
                 >
-                  <a href="/about-us">Read Our Story</a>
+                  <a
+                    href="/about-us"
+                    className="text-pvpink-500 hover:text-white no-underline font-semibold"
+                  >
+                    Read Our Story
+                  </a>
                 </Button>
               </CardContent>
             </Card>

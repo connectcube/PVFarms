@@ -45,7 +45,7 @@ export default function Home() {
               </a>
             </div>
             <Button className="bg-pvpink-500 hover:bg-pvpink-600 text-white font-semibold">
-              <a href="/outgrower-program" className="text-white">
+              <a href="/outgrower-program" className="text-white no-underline">
                 Join Our Program
               </a>
             </Button>
@@ -60,7 +60,7 @@ export default function Home() {
           className="absolute inset-0 bg-cover bg-center opacity-40"
           style={{
             backgroundImage:
-              "url(https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=1200&q=80)",
+              "url(https://images.unsplash.com/photo-1590736969955-71cc94901144?w=1200&q=80)",
           }}
         ></div>
         <div className="relative z-10 container mx-auto px-4 h-full flex items-center">
@@ -76,20 +76,23 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
                 size="lg"
-                className="bg-white text-pvpink-500 hover:bg-gray-100 font-semibold"
+                className="bg-white text-pvpink-500 hover:bg-gray-100 font-semibold border-2 border-white"
               >
-                <a href="#products" className="text-pvpink-500">
+                <a
+                  href="#products"
+                  className="text-pvpink-500 no-underline font-semibold"
+                >
                   Explore Products
                 </a>
               </Button>
               <Button
                 size="lg"
                 variant="outline"
-                className="border-white text-white hover:bg-white hover:text-pvpink-500 font-semibold"
+                className="border-2 border-white text-white hover:bg-white hover:text-pvpink-500 font-semibold bg-transparent"
               >
                 <a
                   href="/about-us"
-                  className="text-white hover:text-pvpink-500"
+                  className="text-white hover:text-pvpink-500 no-underline font-semibold"
                 >
                   Learn More
                 </a>
@@ -112,14 +115,14 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
             {/* Beetroot Powder */}
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div
                 className="h-48 bg-cover bg-center"
                 style={{
                   backgroundImage:
-                    "url(https://6e7e06b4-e35a-4317-8aad-a3bbdeba05d7.tempo.build/images/beet powder pv farms.jpg)",
+                    "url(https://6e7e06b4-e35a-4317-8aad-a3bbdeba05d7.tempo.build/images/WhatsApp Image 2025-08-22 at 16.10.59_26970ad9.jpg)",
                 }}
               ></div>
               <CardContent className="p-6">
@@ -142,7 +145,7 @@ export default function Home() {
                 className="h-48 bg-cover bg-center"
                 style={{
                   backgroundImage:
-                    "url(https://6e7e06b4-e35a-4317-8aad-a3bbdeba05d7.tempo.build/images/beet tea.jpg)",
+                    "url(https://6e7e06b4-e35a-4317-8aad-a3bbdeba05d7.tempo.build/images/WhatsApp Image 2025-08-22 at 16.10.59_33355729.jpg)",
                 }}
               ></div>
               <CardContent className="p-6">
@@ -188,7 +191,7 @@ export default function Home() {
                 className="h-48 bg-cover bg-center"
                 style={{
                   backgroundImage:
-                    "url(https://6e7e06b4-e35a-4317-8aad-a3bbdeba05d7.tempo.build/images/PV products.jpg)",
+                    "url(https://6e7e06b4-e35a-4317-8aad-a3bbdeba05d7.tempo.build/images/WhatsApp Image 2025-08-22 at 16.10.04_5fe919c0.jpg)",
                 }}
               ></div>
               <CardContent className="p-6">
@@ -204,6 +207,77 @@ export default function Home() {
                 </ul>
               </CardContent>
             </Card>
+          </div>
+
+          {/* Where to Buy Section */}
+          <div className="bg-white rounded-lg p-8 shadow-lg">
+            <h3 className="text-3xl font-bold text-center mb-8">
+              Where to Buy Our Products
+            </h3>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {/* Zambia Retailers */}
+              <div>
+                <h4 className="text-2xl font-semibold mb-6 text-pvpink-500 flex items-center">
+                  <span className="mr-3">🇿🇲</span>
+                  Available in Zambia
+                </h4>
+                <div className="space-y-4">
+                  <div className="flex items-center p-4 bg-gray-50 rounded-lg">
+                    <div className="w-3 h-3 bg-pvpink-500 rounded-full mr-4"></div>
+                    <span className="text-lg font-medium">Jumbo Stores</span>
+                  </div>
+                  <div className="flex items-center p-4 bg-gray-50 rounded-lg">
+                    <div className="w-3 h-3 bg-pvpink-500 rounded-full mr-4"></div>
+                    <span className="text-lg font-medium">Abo Abbas</span>
+                  </div>
+                  <div className="flex items-center p-4 bg-gray-50 rounded-lg">
+                    <div className="w-3 h-3 bg-pvpink-500 rounded-full mr-4"></div>
+                    <span className="text-lg font-medium">
+                      Makeni Wholesale
+                    </span>
+                  </div>
+                  <div className="flex items-center p-4 bg-gray-50 rounded-lg">
+                    <div className="w-3 h-3 bg-pvpink-500 rounded-full mr-4"></div>
+                    <span className="text-lg font-medium">Melissa</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* UK Retailers */}
+              <div>
+                <h4 className="text-2xl font-semibold mb-6 text-pvpink-500 flex items-center">
+                  <span className="mr-3">🇬🇧</span>
+                  United Kingdom
+                </h4>
+                <div className="flex items-center justify-center h-40 bg-gradient-to-br from-pvpink-50 to-pvpink-100 rounded-lg">
+                  <div className="text-center">
+                    <div className="text-4xl mb-4">🚀</div>
+                    <h5 className="text-2xl font-bold text-pvpink-600 mb-2">
+                      Coming Soon!
+                    </h5>
+                    <p className="text-gray-600">
+                      We're working to bring our products to UK retailers
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="text-center mt-8">
+              <p className="text-gray-600 mb-4">
+                Can't find our products at these locations? Contact us and we'll
+                help you locate the nearest retailer.
+              </p>
+              <Button className="bg-pvpink-500 hover:bg-pvpink-600 text-white font-semibold border-2 border-pvpink-500">
+                <a
+                  href="/contact-us"
+                  className="text-white no-underline font-semibold"
+                >
+                  Contact Us for More Info
+                </a>
+              </Button>
+            </div>
           </div>
         </div>
       </section>
@@ -337,24 +411,17 @@ export default function Home() {
             Ready to Experience Premium Organic Beetroot Products?
           </h2>
           <p className="text-xl text-pink-100 mb-8 max-w-3xl mx-auto">
-            Join thousands of health-conscious customers who trust PV Farms for
-            their organic beetroot needs.
+            Visit our retail partners in Zambia to get your PV Farms beetroot
+            products today!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
               size="lg"
-              className="bg-white text-pvpink-500 hover:bg-gray-100 font-semibold"
-            >
-              <span className="text-pvpink-500">Order Now</span>
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-white text-white hover:bg-white hover:text-pvpink-500 font-semibold"
+              className="bg-white text-pvpink-500 hover:bg-gray-100 font-semibold border-2 border-white"
             >
               <a
                 href="/outgrower-program"
-                className="text-white hover:text-pvpink-500"
+                className="text-pvpink-500 no-underline font-semibold"
               >
                 Partner With Us
               </a>

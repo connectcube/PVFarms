@@ -25,7 +25,7 @@ module.exports = {
         foreground: "hsl(var(--foreground))",
         primary: {
           DEFAULT: "#d91e5b", // PV Farms pink/magenta from logo
-          foreground: "hsl(var(--primary-foreground))",
+          foreground: "#ffffff", // Ensure white text on primary buttons
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",

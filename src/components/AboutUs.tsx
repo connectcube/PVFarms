@@ -38,8 +38,11 @@ export default function AboutUs() {
                 Contact
               </a>
             </div>
-            <Button className="bg-pvpink-500 hover:bg-pvpink-600 text-white font-semibold">
-              <a href="/outgrower-program" className="text-white">
+            <Button className="bg-pvpink-500 hover:bg-pvpink-600 text-white font-semibold border-2 border-pvpink-500">
+              <a
+                href="/outgrower-program"
+                className="text-white no-underline font-semibold"
+              >
                 Join Our Program
               </a>
             </Button>
@@ -242,20 +245,23 @@ export default function AboutUs() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
               size="lg"
-              className="bg-white text-pvpink-500 hover:bg-gray-100 font-semibold"
+              className="bg-white text-pvpink-500 hover:bg-gray-100 font-semibold border-2 border-white"
             >
-              <a href="/outgrower-program" className="text-pvpink-500">
+              <a
+                href="/outgrower-program"
+                className="text-pvpink-500 no-underline font-semibold"
+              >
                 Become a Partner Farmer
               </a>
             </Button>
             <Button
               size="lg"
               variant="outline"
-              className="border-white text-white hover:bg-white hover:text-pvpink-500 font-semibold"
+              className="border-2 border-white text-white hover:bg-white hover:text-pvpink-500 font-semibold bg-transparent"
             >
               <a
                 href="/contact-us"
-                className="text-white hover:text-pvpink-500"
+                className="text-white hover:text-pvpink-500 no-underline font-semibold"
               >
                 Contact Us
               </a>
