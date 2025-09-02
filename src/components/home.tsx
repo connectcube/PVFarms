@@ -12,7 +12,7 @@ export default function Home() {
           <div className="flex justify-between items-center">
             <div className="flex items-center space-x-2">
               <img
-                src="https://6e7e06b4-e35a-4317-8aad-a3bbdeba05d7.tempo.build/images/1.png"
+                src="/images/1.png"
                 alt="PV Farms Logo"
                 className="h-10 w-10 object-contain"
               />
@@ -60,7 +60,7 @@ export default function Home() {
           className="absolute inset-0 bg-cover bg-center opacity-40"
           style={{
             backgroundImage:
-              "url(https://images.unsplash.com/photo-1590736969955-71cc94901144?w=1200&q=80)",
+              "url(https://images.unsplash.com/photo-1523741543316-beb7fc7023d8?w=1200&q=80)",
           }}
         ></div>
         <div className="relative z-10 container mx-auto px-4 h-full flex items-center">
@@ -122,7 +122,7 @@ export default function Home() {
                 className="h-48 bg-cover bg-center"
                 style={{
                   backgroundImage:
-                    "url(https://6e7e06b4-e35a-4317-8aad-a3bbdeba05d7.tempo.build/images/WhatsApp Image 2025-08-22 at 16.10.59_26970ad9.jpg)",
+                    "url(/images/WhatsApp Image 2025-08-22 at 16.10.59_26970ad9.jpg)",
                 }}
               ></div>
               <CardContent className="p-6">
@@ -145,7 +145,7 @@ export default function Home() {
                 className="h-48 bg-cover bg-center"
                 style={{
                   backgroundImage:
-                    "url(https://6e7e06b4-e35a-4317-8aad-a3bbdeba05d7.tempo.build/images/WhatsApp Image 2025-08-22 at 16.10.59_33355729.jpg)",
+                    "url(/images/WhatsApp Image 2025-08-22 at 16.10.59_33355729.jpg)",
                 }}
               ></div>
               <CardContent className="p-6">
@@ -167,8 +167,7 @@ export default function Home() {
               <div
                 className="h-48 bg-cover bg-center"
                 style={{
-                  backgroundImage:
-                    "url(https://6e7e06b4-e35a-4317-8aad-a3bbdeba05d7.tempo.build/images/PV pickles.jpg)",
+                  backgroundImage: "url(/images/PV pickles.jpg)",
                 }}
               ></div>
               <CardContent className="p-6">
@@ -191,7 +190,7 @@ export default function Home() {
                 className="h-48 bg-cover bg-center"
                 style={{
                   backgroundImage:
-                    "url(https://6e7e06b4-e35a-4317-8aad-a3bbdeba05d7.tempo.build/images/WhatsApp Image 2025-08-22 at 16.10.04_5fe919c0.jpg)",
+                    "url(/images/WhatsApp Image 2025-08-22 at 16.10.04_5fe919c0.jpg)",
                 }}
               ></div>
               <CardContent className="p-6">
@@ -396,8 +395,7 @@ export default function Home() {
             <div
               className="h-96 bg-cover bg-center rounded-lg"
               style={{
-                backgroundImage:
-                  "url(https://6e7e06b4-e35a-4317-8aad-a3bbdeba05d7.tempo.build/images/PV produce.jpg)",
+                backgroundImage: "url(/images/PV produce.jpg)",
               }}
             ></div>
           </div>
@@ -437,7 +435,7 @@ export default function Home() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <img
-                  src="https://6e7e06b4-e35a-4317-8aad-a3bbdeba05d7.tempo.build/images/2.png"
+                  src="/images/2.png"
                   alt="PV Farms Logo"
                   className="h-8 w-8 object-contain"
                 />

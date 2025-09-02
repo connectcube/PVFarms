@@ -14,7 +14,7 @@ export default function OutgrowerProgram() {
           <div className="flex justify-between items-center">
             <div className="flex items-center space-x-2">
               <img
-                src="https://6e7e06b4-e35a-4317-8aad-a3bbdeba05d7.tempo.build/images/1.png"
+                src="/images/1.png"
                 alt="PV Farms Logo"
                 className="h-10 w-10 object-contain"
               />
@@ -55,7 +55,7 @@ export default function OutgrowerProgram() {
         </div>
       </nav>
       {/* Hero Section */}
-      <HeroSection />
+      <HeroSection backgroundImage="https://images.unsplash.com/photo-1523741543316-beb7fc7023d8?w=1200&q=80" />
 
       {/* Program Overview Section */}
       <ProgramOverview />
@@ -159,77 +159,6 @@ export default function OutgrowerProgram() {
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">
-            Farmer Success Stories
-          </h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Testimonial 1 */}
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <div className="flex items-center mb-4">
-                <img
-                  src="https://api.dicebear.com/7.x/avataaars/svg?seed=Maria"
-                  alt="Maria"
-                  className="w-16 h-16 rounded-full mr-4"
-                />
-                <div>
-                  <h3 className="font-semibold text-lg">Maria Nanyondo</h3>
-                  <p className="text-gray-600">Masaka District</p>
-                </div>
-              </div>
-              <p className="text-gray-700">
-                "Before joining PV Farms program, I struggled to feed my family.
-                Now with beetroot farming, my income has tripled and I can send
-                all my children to school."
-              </p>
-            </div>
-
-            {/* Testimonial 2 */}
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <div className="flex items-center mb-4">
-                <img
-                  src="https://api.dicebear.com/7.x/avataaars/svg?seed=John"
-                  alt="John"
-                  className="w-16 h-16 rounded-full mr-4"
-                />
-                <div>
-                  <h3 className="font-semibold text-lg">John Mukasa</h3>
-                  <p className="text-gray-600">Mubende Region</p>
-                </div>
-              </div>
-              <p className="text-gray-700">
-                "I used to produce charcoal which was destroying our forests. PV
-                Farms showed me a better way with beetroot farming. Now I earn
-                more and help protect our environment."
-              </p>
-            </div>
-
-            {/* Testimonial 3 */}
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <div className="flex items-center mb-4">
-                <img
-                  src="https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah"
-                  alt="Sarah"
-                  className="w-16 h-16 rounded-full mr-4"
-                />
-                <div>
-                  <h3 className="font-semibold text-lg">Sarah Namukasa</h3>
-                  <p className="text-gray-600">Jinja District</p>
-                </div>
-              </div>
-              <p className="text-gray-700">
-                "The guaranteed buyback program gives me peace of mind. I know
-                that whatever I grow, PV Farms will purchase at a fair price.
-                This security has changed my life."
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Contact Form Section */}
       <section className="py-16 bg-green-50">
         <div className="container mx-auto px-4">
@@ -256,7 +185,7 @@ export default function OutgrowerProgram() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <img
-                  src="https://6e7e06b4-e35a-4317-8aad-a3bbdeba05d7.tempo.build/images/2.png"
+                  src="/images/2.png"
                   alt="PV Farms Logo"
                   className="h-8 w-8 object-contain"
                 />

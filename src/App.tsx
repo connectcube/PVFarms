@@ -27,6 +27,7 @@ function App() {
         <Route path="/outgrower-program" element={<OutgrowerProgram />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="*" element={<Home />} />
       </Routes>
     </Suspense>
   );

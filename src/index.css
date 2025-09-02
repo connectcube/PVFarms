@@ -101,4 +101,14 @@
   .bg-white .text-pvpink-500 {
     color: #d91e5b !important;
   }
+
+  /* Fix navigation button text visibility */
+  .bg-pvpink-500.hover\:bg-pvpink-600 {
+    color: white !important;
+  }
+
+  .bg-pvpink-500.hover\:bg-pvpink-600 a {
+    color: white !important;
+    text-decoration: none !important;
+  }
 }

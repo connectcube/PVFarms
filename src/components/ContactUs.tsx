@@ -15,7 +15,7 @@ export default function ContactUs() {
           <div className="flex justify-between items-center">
             <div className="flex items-center space-x-2">
               <img
-                src="https://6e7e06b4-e35a-4317-8aad-a3bbdeba05d7.tempo.build/images/1.png"
+                src="/images/1.png"
                 alt="PV Farms Logo"
                 className="h-10 w-10 object-contain"
               />
@@ -302,7 +302,7 @@ export default function ContactUs() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <img
-                  src="https://6e7e06b4-e35a-4317-8aad-a3bbdeba05d7.tempo.build/images/2.png"
+                  src="/images/2.png"
                   alt="PV Farms Logo"
                   className="h-8 w-8 object-contain"
                 />
