@@ -14,7 +14,7 @@ const HeroSection = ({
   subtitle = "Our beetroot outgrower program provides economic opportunities to rural farmers while offering sustainable alternatives to charcoal production.",
   ctaText = "Join Our Program",
   onCtaClick = () => {},
-  backgroundImage = "https://images.unsplash.com/photo-1523741543316-beb7fc7023d8?w=1200&q=80",
+  backgroundImage = "/images/beetroot-field.jpg",
 }: HeroSectionProps) => {
   return (
     <div className="relative h-[700px] w-full bg-background">

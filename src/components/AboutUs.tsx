@@ -56,7 +56,7 @@ export default function AboutUs() {
           <h1 className="text-5xl font-bold text-white mb-6">About PV Farms</h1>
           <p className="text-xl text-pink-100 max-w-3xl mx-auto">
             Pioneering sustainable agriculture and empowering rural communities
-            through organic beetroot farming
+            through sustainable beetroot farming
           </p>
         </div>
       </section>
@@ -71,7 +71,7 @@ export default function AboutUs() {
                 PV Farms was founded with a vision to transform rural
                 agriculture in Zambia. We recognized the potential of beetroot
                 as a superfood and saw an opportunity to create sustainable
-                livelihoods for rural farmers while providing healthy, organic
+                livelihoods for rural farmers while providing healthy, quality
                 products to consumers.
               </p>
               <p className="text-lg text-gray-700 mb-6">
@@ -109,7 +109,7 @@ export default function AboutUs() {
                 <p className="text-gray-700 text-lg">
                   To empower rural communities through sustainable agriculture,
                   providing economic opportunities while producing high-quality
-                  organic beetroot products that promote health and wellness.
+                  beetroot products that promote health and wellness.
                 </p>
               </CardContent>
             </Card>
@@ -123,7 +123,7 @@ export default function AboutUs() {
                 <p className="text-gray-700 text-lg">
                   To be the leading sustainable agriculture company in Africa,
                   creating a model for environmental stewardship, community
-                  empowerment, and premium organic food production.
+                  empowerment, and premium food production.
                 </p>
               </CardContent>
             </Card>
@@ -283,8 +283,7 @@ export default function AboutUs() {
                 <span className="text-lg font-bold">PV Farms</span>
               </div>
               <p className="text-gray-400 mb-4">
-                Premium organic beetroot products for health-conscious
-                consumers.
+                Premium beetroot products for health-conscious consumers.
               </p>
             </div>
 

@@ -55,7 +55,7 @@ export default function OutgrowerProgram() {
         </div>
       </nav>
       {/* Hero Section */}
-      <HeroSection backgroundImage="https://images.unsplash.com/photo-1523741543316-beb7fc7023d8?w=1200&q=80" />
+      <HeroSection backgroundImage="/images/beetroot-field.jpg" />
 
       {/* Program Overview Section */}
       <ProgramOverview />
