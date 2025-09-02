@@ -104,8 +104,7 @@ export default function ContactUs() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Email</h3>
-                    <p className="text-gray-600">sales@pvfarms.com</p>
-                    <p className="text-gray-600">info@pvfarms.com</p>
+                    <p className="text-gray-600">info@pvbeets.farm</p>
                   </div>
                 </div>
 
@@ -364,7 +363,7 @@ export default function ContactUs() {
             <div>
               <h3 className="text-lg font-semibold mb-4">Contact</h3>
               <div className="space-y-2 text-gray-400">
-                <p>Email: sales@pvfarms.com</p>
+                <p>Email: info@pvbeets.farm</p>
                 <p>Phone: +260 971 235 020</p>
                 <p>Address: Chikupi, Lusaka, Zambia</p>
               </div>

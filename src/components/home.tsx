@@ -120,8 +120,7 @@ export default function Home() {
               <div
                 className="h-48 bg-cover bg-center"
                 style={{
-                  backgroundImage:
-                    "url(/images/WhatsApp Image 2025-08-22 at 16.10.59_26970ad9.jpg)",
+                  backgroundImage: "url(/images/beetroot-powder-new.jpg)",
                 }}
               ></div>
               <CardContent className="p-6">
@@ -143,8 +142,7 @@ export default function Home() {
               <div
                 className="h-48 bg-cover bg-center"
                 style={{
-                  backgroundImage:
-                    "url(/images/WhatsApp Image 2025-08-22 at 16.10.59_33355729.jpg)",
+                  backgroundImage: "url(/images/beetroot-tea-new.jpg)",
                 }}
               ></div>
               <CardContent className="p-6">
@@ -166,7 +164,7 @@ export default function Home() {
               <div
                 className="h-48 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url(/images/PV pickles.jpg)",
+                  backgroundImage: "url(/images/beetroot-pickles-new.jpg)",
                 }}
               ></div>
               <CardContent className="p-6">
@@ -183,25 +181,26 @@ export default function Home() {
               </CardContent>
             </Card>
 
-            {/* Beetroot Bites */}
+            {/* Beetroot Products Collection */}
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div
                 className="h-48 bg-cover bg-center"
                 style={{
-                  backgroundImage:
-                    "url(/images/WhatsApp Image 2025-08-22 at 16.10.04_5fe919c0.jpg)",
+                  backgroundImage: "url(/images/beetroot-products-collage.jpg)",
                 }}
               ></div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-semibold mb-2">Beetroot Bites</h3>
+                <h3 className="text-xl font-semibold mb-2">
+                  Product Collection
+                </h3>
                 <p className="text-gray-600 mb-4">
-                  Healthy, crunchy snacks made from dehydrated organic beetroots
-                  with no artificial additives.
+                  Complete range of premium beetroot products including powder,
+                  tea, and pickles.
                 </p>
                 <ul className="text-sm text-gray-500 space-y-1">
-                  <li>• Guilt-free snacking</li>
-                  <li>• High in vitamins</li>
-                  <li>• Natural sweetness</li>
+                  <li>• Premium quality</li>
+                  <li>• Variety of options</li>
+                  <li>• Natural ingredients</li>
                 </ul>
               </CardContent>
             </Card>
@@ -501,7 +500,7 @@ export default function Home() {
             <div>
               <h3 className="text-lg font-semibold mb-4">Contact</h3>
               <div className="space-y-2 text-gray-400">
-                <p>Email: sales@pvfarms.com</p>
+                <p>Email: info@pvbeets.farm</p>
                 <p>Phone: +260 971 235 020</p>
                 <p>Address: Chikupi, Lusaka, Zambia</p>
               </div>

@@ -247,7 +247,7 @@ export default function OutgrowerProgram() {
             <div>
               <h3 className="text-lg font-semibold mb-4">Contact</h3>
               <div className="space-y-2 text-gray-400">
-                <p>Email: sales@pvfarms.com</p>
+                <p>Email: info@pvbeets.farm</p>
                 <p>Phone: +260 971 235 020</p>
                 <p>Address: Chikupi, Lusaka, Zambia</p>
               </div>
