@@ -120,7 +120,7 @@ export default function Home() {
               <div
                 className="h-48 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url(/images/beetroot-powder-new.jpg)",
+                  backgroundImage: "url(/images/beet-powder.jpg)",
                 }}
               ></div>
               <CardContent className="p-6">
@@ -142,14 +142,16 @@ export default function Home() {
               <div
                 className="h-48 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url(/images/beetroot-tea-new.jpg)",
+                  backgroundImage: "url(/images/beetroot-mint-tea.jpg)",
                 }}
               ></div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-semibold mb-2">Beetroot Tea</h3>
+                <h3 className="text-xl font-semibold mb-2">
+                  Beetroot & Mint Tea
+                </h3>
                 <p className="text-gray-600 mb-4">
-                  Refreshing herbal tea blend with natural beetroot extracts for
-                  daily wellness.
+                  Refreshing herbal tea blend with natural beetroot and mint
+                  extracts for daily wellness.
                 </p>
                 <ul className="text-sm text-gray-500 space-y-1">
                   <li>• Natural detoxification</li>
@@ -159,51 +161,90 @@ export default function Home() {
               </CardContent>
             </Card>
 
-            {/* Beetroot Pickles */}
+            {/* Sliced Beets */}
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div
                 className="h-48 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url(/images/beetroot-pickles-new.jpg)",
+                  backgroundImage: "url(/images/sliced-beets.jpg)",
                 }}
               ></div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-semibold mb-2">Beetroot Pickles</h3>
+                <h3 className="text-xl font-semibold mb-2">Sliced Beets</h3>
                 <p className="text-gray-600 mb-4">
-                  Tangy, flavorful pickles made from fresh organic beetroots
-                  with traditional spices.
+                  Premium sliced beetroots preserved with natural ingredients
+                  for convenient healthy snacking.
                 </p>
                 <ul className="text-sm text-gray-500 space-y-1">
-                  <li>• Probiotic benefits</li>
-                  <li>• Low calorie snack</li>
+                  <li>• Ready to eat</li>
                   <li>• Natural preservation</li>
+                  <li>• Rich in nutrients</li>
                 </ul>
               </CardContent>
             </Card>
 
-            {/* Beetroot Products Collection */}
+            {/* Beetroot Bites */}
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div
                 className="h-48 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url(/images/beetroot-products-collage.jpg)",
+                  backgroundImage: "url(/images/beet-bites.jpg)",
                 }}
               ></div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-semibold mb-2">
-                  Product Collection
-                </h3>
+                <h3 className="text-xl font-semibold mb-2">Beetroot Bites</h3>
                 <p className="text-gray-600 mb-4">
-                  Complete range of premium beetroot products including powder,
-                  tea, and pickles.
+                  Grated and dehydrated beetroot bites - a healthy, crunchy
+                  snack packed with natural goodness.
                 </p>
                 <ul className="text-sm text-gray-500 space-y-1">
-                  <li>• Premium quality</li>
-                  <li>• Variety of options</li>
-                  <li>• Natural ingredients</li>
+                  <li>• Healthy snacking</li>
+                  <li>• Natural crunch</li>
+                  <li>• Nutrient dense</li>
                 </ul>
               </CardContent>
             </Card>
+          </div>
+
+          {/* Product Collection Showcase */}
+          <div className="bg-white rounded-lg p-8 shadow-lg mb-12">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+              <div>
+                <h3 className="text-3xl font-bold mb-6 text-pvpink-500">
+                  Complete Product Range
+                </h3>
+                <p className="text-lg text-gray-700 mb-6">
+                  Discover our full collection of premium beetroot products,
+                  each carefully crafted to deliver maximum nutrition and
+                  flavor. From our signature beetroot powder to our refreshing
+                  teas and healthy snacks.
+                </p>
+                <div className="space-y-3">
+                  <div className="flex items-center">
+                    <div className="w-3 h-3 bg-pvpink-500 rounded-full mr-3"></div>
+                    <span className="text-gray-700">
+                      100% Organic Ingredients
+                    </span>
+                  </div>
+                  <div className="flex items-center">
+                    <div className="w-3 h-3 bg-pvpink-500 rounded-full mr-3"></div>
+                    <span className="text-gray-700">Sustainably Sourced</span>
+                  </div>
+                  <div className="flex items-center">
+                    <div className="w-3 h-3 bg-pvpink-500 rounded-full mr-3"></div>
+                    <span className="text-gray-700">
+                      Premium Quality Assured
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="h-80 bg-cover bg-center rounded-lg shadow-md"
+                style={{
+                  backgroundImage: "url(/images/product-collection.jpg)",
+                }}
+              ></div>
+            </div>
           </div>
 
           {/* Where to Buy Section */}

@@ -25,12 +25,12 @@ const Step = (
   },
 ) => {
   return (
-    <div className="flex flex-col items-center text-center">
-      <div className="flex h-16 w-16 items-center justify-center rounded-full bg-green-100 mb-4">
+    <div className="flex flex-col items-center text-center relative">
+      <div className="relative flex h-16 w-16 items-center justify-center rounded-full bg-green-100 mb-4">
         {icon}
-      </div>
-      <div className="absolute -mt-20 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground">
-        {step}
+        <div className="absolute -top-2 -right-2 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground text-sm font-bold">
+          {step}
+        </div>
       </div>
       <h3 className="text-xl font-semibold mb-2">{title}</h3>
       <p className="text-muted-foreground">{description}</p>
