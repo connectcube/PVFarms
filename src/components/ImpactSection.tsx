@@ -113,27 +113,35 @@ const ImpactSection = ({
 const defaultMetrics: ImpactMetric[] = [
   {
     title: "Farmers Supported",
-    value: "1,200+",
+    value: "20+",
     description:
       "Rural farmers provided with sustainable income opportunities through our outgrower program.",
     icon: <Users size={24} />,
     progress: 80,
   },
   {
-    title: "Income Increase",
-    value: "300%",
+    title: "Average Income Increase",
+    value: "150%",
     description:
       "Average income improvement for participating farmers compared to previous economic activities.",
     icon: <DollarSign size={24} />,
     progress: 75,
   },
   {
-    title: "Environmental Impact",
-    value: "40,000+",
+    title: "Hectares Under Cultivation",
+    value: "15+",
     description:
-      "Trees saved annually by providing alternatives to charcoal production in rural communities.",
+      "Total hectares of land currently under beetroot cultivation through our outgrower program.",
     icon: <Leaf size={24} />,
     progress: 65,
+  },
+  {
+    title: "Reduction in Charcoal Production",
+    value: "85%",
+    description:
+      "Reduction in charcoal production activities among participating farmers, contributing to environmental conservation.",
+    icon: <Leaf size={24} />,
+    progress: 85,
   },
 ];
 
