@@ -11,7 +11,9 @@ function App() {
     try {
       const routes = require("tempo-routes").default;
       return (
-        <Suspense fallback={<p>Loading...</p>}>{useRoutes(routes)}</Suspense>
+        <Suspense fallback={<div>Loading...</div>}>
+          {useRoutes(routes)}
+        </Suspense>
       );
     } catch (error) {
       // Fallback to regular routes if tempo-routes is not available
@@ -21,16 +23,15 @@ function App() {
 
   // Regular routes for both production and development fallback
   return (
-    <Suspense fallback={<p>Loading...</p>}>
+    <div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/outgrower-program" element={<OutgrowerProgram />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/contact-us" element={<ContactUs />} />
-        <Route path="/index.html" element={<Home />} />
         <Route path="*" element={<Home />} />
       </Routes>
-    </Suspense>
+    </div>
   );
 }
 
